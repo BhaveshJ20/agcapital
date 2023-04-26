@@ -1,0 +1,743 @@
+@font-face {
+    font-family: 'Museo Sans 100';
+    src: url('../fonts/MuseoSans-100.eot');
+    src: url('../fonts/MuseoSans-100.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/MuseoSans-100.woff2') format('woff2'),
+        url('../fonts/MuseoSans-100.woff') format('woff'),
+        url('../fonts/MuseoSans-100.ttf') format('truetype'),
+        url('../fonts/MuseoSans-100.svg#MuseoSans-100') format('svg');
+    font-weight: 200;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Museo Sans 300';
+    src: url('../fonts/MuseoSans-300.eot');
+    src: url('../fonts/MuseoSans-300.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/MuseoSans-300.woff2') format('woff2'),
+        url('../fonts/MuseoSans-300.woff') format('woff'),
+        url('../fonts/MuseoSans-300.ttf') format('truetype'),
+        url('../fonts/MuseoSans-300.svg#MuseoSans-300') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Museo Sans 500';
+    src: url('../fonts/MuseoSans-500.eot');
+    src: url('../fonts/MuseoSans-500.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/MuseoSans-500.woff2') format('woff2'),
+        url('../fonts/MuseoSans-500.woff') format('woff'),
+        url('../fonts/MuseoSans-500.ttf') format('truetype'),
+        url('../fonts/MuseoSans-500.svg#MuseoSans-500') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Museo Sans 700';
+    src: url('../fonts/MuseoSans-700.eot');
+    src: url('../fonts/MuseoSans-700.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/MuseoSans-700.woff2') format('woff2'),
+        url('../fonts/MuseoSans-700.woff') format('woff'),
+        url('../fonts/MuseoSans-700.ttf') format('truetype'),
+        url('../fonts/MuseoSans-700.svg#MuseoSans-700') format('svg');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Museo Sans 900';
+    src: url('../fonts/MuseoSans-900.eot');
+    src: url('../fonts/MuseoSans-900.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/MuseoSans-900.woff2') format('woff2'),
+        url('../fonts/MuseoSans-900.woff') format('woff'),
+        url('../fonts/MuseoSans-900.ttf') format('truetype'),
+        url('../fonts/MuseoSans-900.svg#MuseoSans-900') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+body, html{
+    height: 100%;
+}
+body {
+	font-family: 'Museo Sans 100';
+	font-weight: 200;
+	font-style: normal;
+	color: #9b9b9b;
+	font-size: 16px;
+	line-height: 1.4; 
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+	font-family: 'Museo Sans 300';
+	font-weight: 300;
+	font-style: normal; 
+	line-height: 1;
+}
+.title h1, .title h2, .title h3, .title h4, .title h5, .title h6{
+	margin-bottom: 1.6rem;
+}
+.sub-title h2{
+	font-family: 'Museo Sans 500';
+	font-size: 26px;
+}
+h1, .h1 {
+	font-weight: 300;
+	font-style: normal;
+}
+
+h2, .h2 {
+  font-size: 36px; 
+}
+
+h3, .h3 {
+  font-size: 24px; 
+}
+
+h4, .h4 {
+  font-size: 1.7rem;
+}
+
+h5, .h5 {
+  font-size: 1.1rem; 
+}
+
+ol, ul {
+  margin: 0;
+  padding: 0;
+}
+p{
+	font-family: 'Museo Sans 300';
+	line-height: 24px;
+	font-weight: 300;
+    font-style: normal;
+}
+.img-full{
+	width: 100%;
+}
+.fa, .fal, .far, .fas {
+  font-family: 'Font Awesome\ 5 Free'; 
+}
+
+a {
+  transition: all 0.3s ease-out;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  color: #00b9ba;
+  outline: none; }
+
+a:hover, a:focus {
+  color: #00b9ba; }
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+.back-link a{
+	color: #00b9ba;
+	font-family: 'Museo Sans 500';
+	font-weight: normal;
+	font-size: 14px;
+	text-decoration: underline;
+}
+.back-link a:hover{
+	text-decoration: none;
+}
+.link-green{
+	color: #00b9ba;
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 1.38;
+	letter-spacing: 0.6px;
+	text-decoration: none;
+}
+.link-green:hover{
+	text-decoration: none;
+}
+.read-more a{
+	color: #495e79;
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 1.38;
+	text-decoration: none;
+}
+ /* ========================================
+   Color CSS
+   ======================================== */
+.carbon_black_bg {
+  background-color: #313e4d; 
+}
+.gray_black_bg{
+	background-color: #495e79;
+}
+.body-text {
+  color: #495e79; 
+}
+.text-green {
+  color: #00b9ba; 
+}
+/* ========================================
+   Button CSS
+   ======================================== */
+.btn {
+	font-family: 'Museo Sans 500';
+	font-size: 12px;
+	line-height: 1.2;
+	font-weight: normal;
+	font-style: normal;
+	letter-spacing: 1.1px;
+	border-radius: 0px;
+	-webkit-border-radius: 0px;
+	-moz-box-border-radius: 0px;
+	-o-border-radius: 0px;
+	border: 2px solid;
+	text-transform: uppercase;
+	padding: 10px 25px;
+	transition: all 0.3s ease-out;
+	-webkit-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	cursor: pointer;
+	outline: none;
+	box-shadow: none;
+	white-space: normal;
+	word-wrap: break-word; 
+}
+.btn:focus, .btn.focus {
+	outline: 0;
+	-webkit-box-shadow: none;
+	box-shadow: none; 
+}
+
+.btn-primary {
+	border-color: #22b6b8;
+	background-color: transparent;
+	color: #22b6b8; 
+}
+.btn-primary:hover, .btn-primary:focus {
+	border-color: #22b6b8;
+	background-color: #22b6b8;
+	color: #ffffff;
+	border: 2px solid #22b6b8;
+	outline: none; 
+}
+
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle {
+  	border-color: #22b6b8;
+	background-color: #22b6b8;
+	color: #ffffff;
+	border: 2px solid #22b6b8;
+	outline: none;  
+}
+.btn-white {
+	border-color: #ffffff;
+	background-color: transparent;
+	color: #ffffff; 
+}
+.btn-white:hover, .btn-white:focus {
+	border-color: #ffffff;
+	background-color: #ffffff;
+	color: #495e79;
+	border: 2px solid #ffffff;
+	outline: none; 
+}
+
+.btn-white:not(:disabled):not(.disabled).active, .btn-white:not(:disabled):not(.disabled):active, .show > .btn-white.dropdown-toggle {
+	border-color: #ffffff;
+	background-color: #ffffff;
+	color: #495e79;
+	border: 2px solid #ffffff;
+	outline: none; 
+}
+/* ========================================
+   Form CSS
+   ======================================== */
+.form-control {
+	font-family: 'Museo Sans 500';
+	font-weight: 500;
+    font-style: normal;
+	font-size: 18px;
+	color: #495e79;
+	padding: 1.5rem 1rem;
+	letter-spacing: 1px;
+	border-radius: 0;
+	-webkit-border-radius: 0;
+	-moz-box-border-radius: 0;
+	-o-border-radius: 0;
+	border: none; 
+}
+.form-control:focus {
+    box-shadow: 0 0 0 0.2rem rgba(153, 153, 153, 0.3); 
+}
+.form-group{
+    margin-bottom: 2rem;
+}
+.form-control::-webkit-input-placeholder{
+  /* Chrome/Opera/Safari */
+  color: #495e79;
+  text-transform: initial;
+}
+
+.form-control::-moz-placeholder{
+  /* Firefox 19+ */
+  color: #495e79;
+  text-transform: initial;
+}
+
+.form-control:-ms-input-placeholder{
+  /* IE 10+ */
+  color: #495e79;
+  text-transform: initial;
+}
+
+.form-control:-moz-placeholder{
+  /* Firefox 18- */
+  color: #495e79;
+  text-transform: initial;
+}
+.border{
+	border-color: #bebebe !important;
+}
+/* ========================================
+   Header CSS
+   ======================================== */
+header .navbar{
+	transition: all 0.77s cubic-bezier(0.694, 0.0482, 0.335, 1);
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.28);
+}
+header .navbar .navbar-nav .dropdown-menu {
+  margin: 0 0 0 1.4rem;
+  padding: 0;
+  border: 0px;
+  border-radius: 0px;
+  background-color: #a2aeb2;
+  box-shadow: 0 5px 8px rgba(49, 62, 77, 0.1);
+}
+header .navbar .navbar-nav .dropdown:hover>.dropdown-menu {
+  display: block;
+}
+header .navbar .navbar-nav .dropdown-item{
+	font-size: 14px;
+	padding: .55rem 1rem;
+	color: #ffffff;
+	text-transform: uppercase;
+}
+header .navbar .navbar-nav .dropdown-item.active, header .navbar .navbar-nav .dropdown-item:active, header .navbar .navbar-nav .dropdown-item:hover{
+    color: #313e4d;
+    text-decoration: none;
+    background-color: #ffffff;
+}
+.navbar-dark .navbar-nav .nav-link{
+	font-family: 'Museo Sans 100';
+	font-size: 14px;
+	font-weight: 200;
+	font-style: normal;
+	letter-spacing: 0.2px;
+	color: #ffffff;
+	text-transform: uppercase;
+}
+.navbar-dark .navbar-nav li.nav-item:last-child .nav-link{
+	padding-right: 0px;
+}
+.navbar-dark .navbar-toggler{
+	border: 0px;
+	border-radius: 0px;
+	outline: none;
+	position: relative;
+	height: 0.5em;
+}
+.navbar-toggler:focus{
+	outline: none;
+}
+.navbar-toggler[aria-expanded="false"] .navbar-toggler-icon{
+	background-image: none;
+}
+.navbar-toggler[aria-expanded="false"] .navbar-toggler-icon span{
+	width: 100%;
+	height: 1px;
+	background-color: #ffffff;
+	transition: all .3s;
+	-webkit-transition: all .3s;
+	backface-visibility: hidden;
+	border-radius: 2px;
+	position: relative;
+	display: block;
+}
+.navbar-toggler[aria-expanded="false"] .navbar-toggler-icon span:before, .navbar-toggler[aria-expanded="false"] .navbar-toggler-icon span:after {
+	content: "";
+	position: absolute;
+	left: 0;
+	top: -7px;
+	width: 100%;
+	height: 1px;
+	background-color: #ffffff;
+	transition: all .3s;
+	-webkit-transition: all .3s;
+	backface-visibility: hidden;
+}
+.navbar-toggler[aria-expanded="false"] .navbar-toggler-icon span:after {
+	top: 7px;
+}
+.navbar-toggler[aria-expanded="true"] .navbar-toggler-icon{
+	background-image: none;
+}
+.navbar-toggler[aria-expanded="true"] .navbar-toggler-icon span{
+	background-color: transparent;
+}
+.navbar-toggler[aria-expanded="true"] .navbar-toggler-icon span:before {
+	content: "";
+	display: block;
+	width: 100%;
+	height: 1px;
+	background-color: #ffffff;
+	transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+	top: 5px;
+}
+.navbar-toggler[aria-expanded="true"] .navbar-toggler-icon span:after {
+	content: "";
+	display: block;
+	width: 100%;
+	height: 1px;
+	background-color: #ffffff;
+	transform: rotate(-45deg);
+	-webkit-transform: rotate(-45deg);
+	top: 5px;
+}
+/* ========================================
+   Footer CSS
+   ======================================== */
+.footer{
+	padding: 40px 0px;
+}
+.footer-top ul li{
+	display: inline-block;
+	color: #ffffff;
+	font-family: 'Museo Sans 300';
+    font-weight: 300;
+    font-size: 14px;
+    text-align: center;
+    padding: 0 15px;
+    margin-bottom: 20px;
+    position: relative;
+}
+.footer-top ul li:after{
+	content: "";
+	background-color: #ffffff;
+	width: 1px;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	right: -5px;
+}
+.footer-top ul li:last-child:after{
+	display: none;
+}
+.footer-bottom{
+	font-family: 'Museo Sans 300';
+    font-weight: 300;
+    font-size: 14px;
+    color: #ffffff;
+}
+.footer-bottom a{
+	font-family: 'Museo Sans 500';
+    font-weight: 500;
+    color: #ffffff;
+}
+/* ========================================
+   Banner CSS
+   ======================================== */
+.full-height {
+    height: 100vh;
+}
+.hero {
+    position: relative;
+    display: table;
+    width: 100%;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.hero:before{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background-color: rgba(49, 62, 77, 0.7);
+    /*opacity: .7;*/
+}
+.hero .hero-content {
+    display: table-cell;
+    -webkit-transform: translateY(5rem);
+    -ms-transform: translateY(5rem);
+    transform: translateY(5rem);
+    vertical-align: middle;
+}
+.hero .title h1{
+	font-size: 60px;
+	line-height: 1;
+	text-transform: uppercase;
+}
+.hero .title p{
+	font-size: 24px;
+}
+.hero .btn{
+	padding: 10px 30px;
+}
+.banner{
+	height: 400px;
+}
+.hero.banner .hero-content {
+	-webkit-transform: translateY(2rem);
+    -ms-transform: translateY(2rem);
+    transform: translateY(2rem);
+}
+.hero .embed-responsive{
+	position: static;
+}
+.video-text{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 50%;
+	z-index: 1;
+}
+/* ========================================
+   Common CSS
+   ======================================== */
+.content-wrap{
+	padding: 80px 0px;
+}
+.block-image{
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.28);
+}
+.count-wrap{
+	padding: 80px 0 40px;
+}
+.info-box{
+	border: 2px solid #ffffff;
+	margin-bottom: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 230px;
+}
+.info-box h3{
+	font-size: 72px;
+}
+.info-box p{
+	font-size: 22px;
+}
+.block-text .scrollcontent.content{
+	height: 260px;
+	background: transparent;
+	margin: 0;
+	padding: 0px 0px 20px 0px;
+} 
+.block-text .scrollcontent.content .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{
+	width: 8px;
+	background-color: #3ccacb;
+}
+.block-text .scrollcontent.content .mCSB_scrollTools .mCSB_draggerRail{
+	width: 8px;
+	background-color: rgba(0,0,0,0.1);
+}
+.content:nth-child(odd) h2{
+	font-family: 'Museo Sans 300';
+    font-weight: 300;
+    font-style: normal;
+}
+.prime-service-wrap{
+	padding: 80px 0 40px;
+}
+.content-box{
+	background-color: #ffffff;
+}
+.content-box .content-box-text h3{
+	font-family: 'Museo Sans 500';
+    font-weight: 500;
+}
+.ag-card-deck .card-deck .card{
+	margin-bottom: 40px;
+}
+.hedge-box{
+	margin-bottom: 40px;
+}
+.mb-30{
+	margin-bottom: 30px;
+}
+.card{
+	border: 0;
+	border-radius: 0;
+	margin-bottom: 40px;
+}
+.card-img-top{
+	border-radius: 0;
+}
+.info-section-wrap{
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+	position: relative;
+}
+.info-section-wrap .info-content{
+	padding: 80px 0;
+	position: relative;
+	min-height: 570px;
+}
+.info-section-wrap .info-content .info-content-box{
+	width: 50%;
+	background-color: rgba(49, 62, 77, 0.8);
+	position: absolute;
+	left: 0;
+	top: 80px;
+}
+.info-section-wrap .info-content .info-content-box .info-content-text{
+	padding: 80px;
+    max-width: 640px;
+    height: 100%;
+    float: right;
+}
+.info-section-wrap .info-content .info-content-box .info-content-text p{
+	font-family: 'Museo Sans 100';
+    font-weight: 200;
+    font-style: italic;
+	font-size: 32px;
+	line-height: 1.22;
+	color: #ffffff;
+}
+.map-wrap{
+	position: relative;
+}
+.map-wrap iframe{
+	margin-bottom: -6px;
+}
+.map-wrap .contact-form{
+	position: absolute;
+	top: 80px;
+	right: 0;
+	width: 50%;
+	z-index: 1;
+}
+.map-wrap .contact-form .cf7-ag{
+	max-width: 555px;
+	padding: 30px 15px;
+	box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.5);
+}
+.map{
+    -webkit-filter: grayscale(100%);
+       -moz-filter: grayscale(100%);
+        -ms-filter: grayscale(100%);
+         -o-filter: grayscale(100%);
+            filter: grayscale(100%);
+}
+.contact-details p a{
+	font-family: 'Museo Sans 700';
+    font-weight: 700;
+    color: #9b9b9b;
+}
+.contact-details p a:hover{
+	color: #22b6b8;
+}
+/* ========================================
+   HEDGE FUND PLATFORM CSS
+   ======================================== */
+.hedge-fund-list-wrap{
+	padding: 80px 0 50px;
+}
+.download-link .link-green img{
+	vertical-align: initial;
+}
+.download-link .link-green span{
+	display: inline-block;
+	line-height: 1;
+	border-bottom: 1px solid #00b9ba;
+}
+.download-link .link-green:hover span{
+	border-bottom: 0px;
+}
+.hedge-fund-box .block-text .scrollcontent.content{
+	height: 315px;
+	padding: 0;
+}
+.hedge-fund-text{
+	position: relative;
+}
+.copy-scroll{
+	position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 20px;
+    right: 0px;
+    padding: 0 15px 0 0; 
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 270px;
+}
+
+/* Let's get this party started */
+.copy-scroll::-webkit-scrollbar {
+    width: 8px;
+}
+ 
+/* Track */
+.copy-scroll::-webkit-scrollbar-track {
+    /*-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); */
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background-color: rgba(0,0,0,0.1);
+}
+ 
+/* Handle */
+.copy-scroll::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: rgba(0, 185, 186, 0.5); 
+    /*-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); */
+}
+.copy-scroll::-webkit-scrollbar-thumb:window-inactive {
+	background: rgba(0, 185, 186, 0.6); 
+}
+.copy-scroll:hover::-webkit-scrollbar-thumb{
+	background: rgba(0, 185, 186, 1); 
+}
+/* ========================================
+   Modal CSS
+   ======================================== */
+.modal-content{
+	background-color: #e4e4e4;
+	border-radius: 0;
+}
+.modal-header{
+	background-color: #495e79;
+	border-radius: 0;
+}
+.modal-title{
+	font-family: 'Museo Sans 500';
+    font-weight: normal;
+    font-size: 18px;
+	color: #ffffff;
+	letter-spacing: 0.5px;
+	text-align: left;
+}
+.modal-header button.close{
+	color: #ffffff;
+	opacity: 1;
+}
+.modal-header button.close:not(:disabled):not(.disabled):focus, .modal-header button.close:not(:disabled):not(.disabled):hover{
+	color: #ffffff;
+	opacity: 1;
+}
+.modal-body{
+    padding: 1.5rem;
+}
+.modal-body .form-group{
+    margin-bottom: 1.5rem;
+}
+.modal-footer{
+	border: 0;
+}

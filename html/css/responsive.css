@@ -1,0 +1,123 @@
+@media (min-width: 992px){
+	.navbar-expand-lg .navbar-nav .nav-link {
+	    padding-right: 1.4rem;
+	    padding-left: 1.4rem;
+	}
+	
+}
+@media (min-height: 768px) and (max-width: 991px) {
+
+}
+@media (min-height: 768px){
+
+}
+@media (min-width: 576px){
+	.modal-dialog {
+	    max-width: 550px;
+	}
+}
+
+@media (max-width: 1170px) {
+	.info-section-wrap .info-content .info-content-box{
+		width: initial;
+	}
+}
+@media (max-width: 1024px) {
+	/*header .navbar .navbar-nav .dropdown:hover>.dropdown-menu {
+	  display: none;
+	}*/
+	header .navbar .navbar-nav .dropdown.show>.dropdown-menu {
+	  display: block;
+	}
+	header .navbar .navbar-nav .dropdown-menu{
+		margin: 0;
+		/*background-color: rgba(255,255,255,0.5);*/
+		display: block;
+		top: 68px;
+	}
+	header .navbar .navbar-nav .dropdown-menu .dropdown-item{
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	header .navbar .navbar-nav .dropdown .dropdown-toggle::after{
+		display: none;
+	}
+/*	.content-box .content-box-text h3{
+	    min-height: 50px;
+	}*/
+	.info-section-wrap .info-content{
+		min-height: initial;
+	}
+	.info-section-wrap .info-content .info-content-box{
+		width: 100%;
+		position: static;
+	}
+	.info-section-wrap .info-content .info-content-box .info-content-text{
+		padding: 80px;
+		max-width: 100%;
+		float: none;
+	}
+}
+
+@media (max-width: 991px) {
+	header .navbar .navbar-nav .dropdown-menu{
+		background-color: rgba(0,0,0,0.1);
+		margin: 0;
+	}
+	.ag-card-deck .card-deck {
+	    -ms-flex-flow: column;
+	    flex-flow: column;
+	}
+	.map-wrap .contact-form{
+		position: static;
+		width: 100%;
+	}
+	.map-wrap .contact-form .cf7-ag{
+		max-width: 100%;
+	}
+}
+
+@media (max-width: 767px) {
+	.hero .hero-content {
+	    display: table-cell;
+	    -webkit-transform: translateY(2rem);
+	    -ms-transform: translateY(2rem);
+	    transform: translateY(2rem);
+	    vertical-align: middle;
+	}
+	.hero .title h1 {
+	    font-size: 45px;
+	}
+}
+
+@media (max-width: 575px) {
+	.info-section-wrap .info-content .info-content-box .info-content-text{
+		padding: 20px;
+	}
+	.map-wrap .contact-form .cf7-ag{
+	    padding: 30px 0px;
+	}
+}
+@media (max-width: 480px) {
+	.hero .title h1 {
+	    font-size: 40px;
+	}
+	.info-section-wrap .info-content .info-content-box .info-content-text p{
+		font-size: 25px;
+	}
+	.footer-top ul li:nth-child(2):after{
+		display: none;
+	}
+}
+
+
+/* Ipad CSS */
+@media only screen and (max-device-width: 1366px) {
+	/*header .navbar .navbar-nav .dropdown:hover>.dropdown-menu {
+	  display: none;
+	}*/
+	header .navbar .navbar-nav .dropdown.show>.dropdown-menu {
+	  display: block;
+	}
+}
+
